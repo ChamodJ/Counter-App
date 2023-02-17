@@ -1,0 +1,80 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0 0 5px #00072d;
+
+    background: url(images/krists-luhaers-AtPWnYNDJnM-unsplash.jpg);
+    background-size: cover;
+}
+
+.main {
+    margin: 50px 50px;
+
+    background-color: #64b5f6;
+    border: 5px solid;
+    border-image: linear-gradient(to right ,#ffb703, #a4161a, #72195a)1;
+}
+
+.counting{
+    margin-top: 30px;
+   /* border: 5px solid rgb(253, 252, 252);*/
+    
+   background-color: #90caf9;
+   border-top: 5px solid;
+   border-image: linear-gradient(to right ,#ffb703, #a4161a, #72195a)1;
+}
+
+#number {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+
+    margin: 55px;
+}
+
+button {
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 250px; 
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px #00072d;
+
+    border: none;
+    border-radius: 8px;
+}
+
+#increment-btn {
+   /* background-color: #ffb703;*/
+   background-color: #ffb703;
+}
+
+#increment-btn:hover {
+    background-color: #fb8500;
+}
+
+#decrement-btn {
+    background-color: #a4161a;
+}
+
+#decrement-btn:hover {
+    background-color: #660708;
+}
+
+#save-btn {
+    background-color: #72195a;
+}
+
+#save-btn:hover {
+    background-color: #4c1036;
+}
+
+#save {
+    font-size: 25px;
+}
+
